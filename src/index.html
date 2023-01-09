@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recorder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="render.js"></script>
+  </head>
+  <body class="content">
+    <h1>⚡ Electron Audio Recorder</h1>
+
+    <div id="audio" class="audio"></div>
+
+    <div class="buttons">
+      <button id="startBtn" class="button is-primary">Start</button>
+      <button id="pauseBtn" class="button is-warning">Pause</button>
+      <button id="stopBtn" class="button is-danger">Stop</button>
+      <button id="saveBtn" class="button is-success">Save</button>
+      <button id="downloadBtn" class="button is-secondary">Download</button>
+    </div>
+
+    <div>
+      <h4>Saved Audios:</h4>
+      <ul>
+      </ul>
+    </div>
+  </body>
+</html>
