@@ -1,4 +1,4 @@
-# Electron Screen Recorder
+# Electron Application: Audio Recorder
 
 Build a audio recorder with Electron from scratch. 
 
